@@ -2,7 +2,7 @@ import unittest
 from unittest.mock import patch, Mock
 from HW04a import get_github_repositories_and_commits
 
-"Lijuan Liu ,this script for Travis ci practice,11:00am,Oct.9,2023."
+# "Lijuan Liu ,this script for Travis ci practice,11:00am,Oct.9,2023."
 
 
 class TestGitHubRepositoriesAndCommits(unittest.TestCase):
