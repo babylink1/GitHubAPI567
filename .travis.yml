@@ -1,3 +1,4 @@
+#sj
 language: python
 
 python:
@@ -6,4 +7,6 @@ python:
 install:
   - pip install requests
 
-
+# command to run tests
+script:
+  - pytest uniTest.py
