@@ -1,7 +1,6 @@
+# "Lijuan Liu ,this script for Travis ci practice,11:00am,Oct.9,2023."
 import requests
 import json
-"Lijuan Liu ,this script for Travis ci practice,11:00am,Oct.9,2023."
-
 
 def get_github_repositories_and_commits(user_id):
     try:
