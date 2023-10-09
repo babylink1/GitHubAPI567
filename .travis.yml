@@ -1,12 +1,12 @@
 #sj
 language: python
-
 python:
-  - "3.9.7"
+  - 3.9
+
+dist: focal # 使用Ubuntu Focal Fossa作为虚拟环境
 
 install:
-  - pip install requests
+  - pip install --upgrade urllib3
 
-# command to run tests
 script:
   - pytest uniTest.py
