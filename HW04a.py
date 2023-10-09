@@ -1,18 +1,17 @@
 import requests
 import json
+"Lijuan Liu ,this script for Travis ci practice,11:00am,Oct.9,2023."
 
 
 def get_github_repositories_and_commits(user_id):
     try:
-        # API endpoint to retrieve user's repositories
+
         repositories_url = f"https://api.github.com/users/{user_id}/repos"
 
-        # Send a GET request to GitHub API
         response = requests.get(repositories_url)
 
-        # Check if the request was successful (status code 200)
         if response.status_code == 200:
-            # Parse the JSON response
+
             repositories_data = json.loads(response.text)
 
             # Initialize a list to store repository names and commit counts
