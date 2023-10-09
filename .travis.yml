@@ -6,6 +6,7 @@ python:
 dist: focal # 使用Ubuntu Focal Fossa作为虚拟环境
 
 install:
+  - pip install requests
   - pip install --upgrade urllib3
 
 script:
