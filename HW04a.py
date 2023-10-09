@@ -5,7 +5,7 @@ import json
 def get_github_repositories_and_commits(user_id):
     try:
         # API endpoint to retrieve user's repositories
-        repositories_url = f"https://api.github.com/users/{user_id}/repos"
+        repositories_url = "https://api.github.com/users/{user_id}/repos"
 
         # Send a GET request to GitHub API
         response = requests.get(repositories_url)
